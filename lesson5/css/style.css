@@ -1,0 +1,35 @@
+.block2{    
+    width: 1500px;
+    height: 650px;
+    background-color: #c4c4c4;
+
+    overflow: auto;
+
+    border-radius: 50px 0 0 50px;
+}
+
+.block1{    
+    width: 300px;
+    height: 250px;
+    background-color: #ffe2a3;
+
+    border: 2px solid #000000;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    color: #000000;
+    
+
+    display: inline-block;
+
+    padding:10px;
+    margin: 15px;
+
+    border-radius: 30px;
+
+    box-shadow: inset 1px 1px 7px;
+
+
+}
+
