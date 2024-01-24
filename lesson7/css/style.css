@@ -167,10 +167,9 @@ body {
 
 .footer-backgrond {
     background-color: rgba(0, 0, 0, 0.616);
-    width: auto;
     height: 400px;
     margin-top: 50px;
-    
+    min-width: 936px;
 }
 
 .footer-inner {
@@ -202,7 +201,7 @@ body {
 
 .col-two {
     margin-top: 130px;
-    margin-right: 150px;
+
 }
 
 .col-link {
