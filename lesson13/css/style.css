@@ -1,0 +1,55 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    background: rgb(50, 50, 50);
+    max-width: 500px;
+    margin: 100px auto ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body__box {
+    width: 200px;
+    height: 150px;
+    background: rgb(75, 75, 75);
+    border-radius: 20px;
+    position: relative;
+    top: 300px;
+    transition: 1s;
+    /* transition-timing-function: ease; */
+}
+
+.body__box:hover {
+    background: rgb(173, 101, 255);
+
+}
+
+
+.body__box:hover .box__loading {
+    width: 300%;
+}
+
+.body__box span {
+    color: aliceblue;
+    font-size: 26px;
+    position: relative;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.body__box:hover span  {
+    opacity: 1;
+}
+
+.box__loading {
+    height: 20px;
+    width: 10px;
+    background: rgb(173, 101, 255);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 200px;
+    left: -200px;
+    transition-duration: 1s;
+}
+
