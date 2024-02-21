@@ -35,7 +35,8 @@
     position: relative;
     top: 60px;
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 0.2s;
+    transition-delay: 1s;
 }
 
 .body__box:hover span  {
