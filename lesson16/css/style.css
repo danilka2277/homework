@@ -1,0 +1,161 @@
+.body {
+    font-family: "Open Sans";
+    background: rgb(250, 250, 250);
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.link__inner {
+    display: flex;
+    margin: auto 0 auto 0;
+    margin-left: auto;
+
+
+}
+
+.link__list {
+    display: flex;
+}
+
+.link__item {
+    margin-left: 30px;
+}
+
+.user-panel__item {
+    margin-right: 10px;
+    border-radius: 10px;
+    background: rgb(230, 230, 230);
+    transition: .5s;
+}
+
+.user-panel__item:hover {
+    background: rgb(200, 200, 200);
+} 
+
+.user-panel__item img {
+    width: 40px;
+    padding: 10px;
+}
+
+.user-panel__inner {
+    margin: auto 0 auto 0;
+    margin-left: auto;
+    /* margin-right: 100px; */
+
+}
+
+.user-panel__list {
+    display: flex;
+}
+
+
+/* ==================== MAIN =================================== */
+
+.main-img {
+    width: 100%;
+}
+
+.t-shirts__h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px;
+    position: relative;
+    right: 240px;
+    margin: 25px;
+}
+
+.main__wrapper {
+    display: flex;
+}
+
+.aside {
+    font-size: 20px;
+    width: 300px;
+
+}
+
+.aside__list {
+    position: sticky;
+    top: 10px;
+}
+
+.aside__item {
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.aside__item-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.gallery__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.gallery__img img {
+    transition-duration: .5s;
+}
+
+.gallery__img:hover img{
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+
+/* ==================== footer =================================== */
+
+.footer-backgrond {
+    background: rgb(200, 200, 200);
+}
+
+.footer-logo-text {
+    max-width: 200px;
+    margin: 25px;
+}
+
+.footer-logo-text img {
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+
+.footer-inner {
+    display: flex;
+}
+
+.footer-col {
+    margin: 50px;
+}
+
+.footer-h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.col-link {
+    margin-bottom: 5px;
+}
+
