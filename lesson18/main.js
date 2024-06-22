@@ -3,7 +3,7 @@ const secondnumber = 18
 const statedage = 18
 
 
-if (statedage > secondnumber) {
+if (statedage >= secondnumber) {
     const result = ('Вы совершеннолетний')
     console.log(result)
 } else {
